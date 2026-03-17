@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 # carregando o dataset
-carros_dataset = pd.read_csv('C:/Users/thiag/OneDrive/Data Studies/Projeto/sprint5_project/vehicles.csv')
+carros_dataset = pd.read_csv('./vehicles.csv')
 st.header('Carros Dataset - Análise Exploratória de Dados') # adicionando um título para a aplicação
 
 botao_histograma = st.button('Exibir Histograma de Odômetro') # adicionando um botão para exibir o histograma de odômetro
